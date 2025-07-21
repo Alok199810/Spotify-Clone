@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Your favourite music is here</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <nav>
+        <ul>
+            <li  class="brand"><img src="download.png" alt="">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+
+            </li>
+        </ul>
+         
+    </nav>
+  <div class="container">
+    <div class="songlist ">
+        <h1>List of your favourite Songs</h1>
+        <div class="songitemcontainer">
+          <div class="songitem">
+            <img src="covers/cover1.jpg" alt="1">
+            <span class="songname">kaho na kano</span>
+            <span class="songlistsplay"><span class="timestamp">04.35 <i id="0" class="far songitemplay fa-circle-play"></i></span></i></span>
+          </div>
+           <div class="songitem">
+            <img src="covers/2.jpg" alt="1">
+            <span class="songname">Mitawa</span>
+            <span class="songlistsplay"><span class="timestamp">04.35 <i id="1" class="far songitemplay fa-circle-play"></i></span></span>
+          </div> <div class="songitem">
+            <img src="covers/3.jpg" alt="1">
+            <span class="songname">Main shayar toh nahi</span>
+            <span class="songlistsplay"><span class="timestamp">04.35 <i id="2" class="far songitemplay fa-circle-play"></i></span></span>
+          </div>
+           <div class="songitem">
+            <img src="covers/4.jpg" alt="1">
+            <span class="songname">Tujhe bhula diya</span>
+            <span class="songlistsplay"><span class="timestamp">04.35 <i id="3" class="far songitemplay fa-circle-play"></i></span></span>
+          </div>
+           <div class="songitem">
+            <img src="covers/5.jpg" alt="1">
+            <span class="songname">Saiyaara</span>
+            <span class="songlistsplay"><span class="timestamp">04.35 <i id="4" class="far songitemplay fa-circle-play"></i></span></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="songbanner"></div>
+  </div>
+  
+  <div class="bottom">
+    <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100" color="">
+    <div class="fontawesome">
+     <i  class="fa-solid fa-3x fa-backward-fast" id="previous"></i>
+     <i  class="fa-regular fa-3x fa-circle-play" id="masterplay"></i>
+     
+     <i  class="fa-solid fa-3x fa-forward-fast" id="next"></i>
+     <div class="songinfo">
+      <img src="" alt="" class="s"><span id="mastersongname">kaho na kaho</span>
+     </div>
+  </div>
+  </div>
+  <script src="https://kit.fontawesome.com/2adef386a9.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script> 
+ 
+    
+</body>
+</html>
